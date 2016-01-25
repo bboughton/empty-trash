@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>com.github.bboughton.empty-trash</string>
+		<key>StandardOutPath</key>
+		<string>/usr/local/opt/empty-trash/logs/empty-trash.log</string>
+		<key>StandardErrorPath</key>
+		<string>/usr/local/opt/empty-trash/logs/empty-trash.log</string>
+		<key>Program</key>
+		<string>/usr/local/opt/empty-trash/bin/empty-trash.sh</string>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Hour</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+</plist>
